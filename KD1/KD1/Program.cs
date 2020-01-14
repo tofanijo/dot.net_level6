@@ -10,14 +10,17 @@ namespace KD1
     {
         static void Main(string[] args)
         {
-            string vardas = "Romanas";
-            isvestiVarda(vardas);
+            //string vardas = "Romanas";
+            //string vardas2 = "Antanas";
+            //isvestiVarda(vardas);
+            //isvestiVarda(vardas2);
+            isvestiVarda("Romanas");
             Console.ReadLine();
         }
 
-        static void isvestiVarda(string vardas)
+        static void isvestiVarda(string q)
         {
-            Console.WriteLine(vardas);
+            Console.WriteLine(q);
         }
 
         

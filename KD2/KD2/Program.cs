@@ -12,7 +12,7 @@ namespace KD2
         {
             
             string vardas;
-            Console.WriteLine("iveskite savo vardas:");
+            Console.WriteLine("Iveskite savo varda:");
 
             vardas = Console.ReadLine();
 

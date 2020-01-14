@@ -10,6 +10,24 @@ namespace KD2
     {
         static void Main(string[] args)
         {
+            
+            string vardas;
+            Console.WriteLine("iveskite savo vardas:");
+
+            vardas = Console.ReadLine();
+
+            isvestiVarda(vardas, 10);
+            Console.ReadLine();
+
         }
+        static void isvestiVarda(string q, int kiekKartu)
+        {
+            
+            for (int i = 0; i < kiekKartu; i++)
+            {
+                Console.WriteLine(q);
+            }
+        }
+
     }
 }

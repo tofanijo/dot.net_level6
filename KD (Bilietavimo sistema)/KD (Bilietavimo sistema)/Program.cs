@@ -21,7 +21,7 @@ namespace KD__Bilietavimo_sistema_
             {
 
                 Console.WriteLine($"Bilietu likutis:\nUz 10$: {bilietai10}\nUz 20$: {bilietai20}\nUz 30$: {bilietai30}");
-                Console.WriteLine("Pasirinkti vaiksma: [1] Prideti bilietus, [2] Parduoti bilietus,[3] Iseiti is programos");
+                Console.WriteLine("Pasirinkti veiksma: [1] Prideti bilietus, [2] Parduoti bilietus,[3] Iseiti is programos");
                 while (!int.TryParse(Console.ReadLine(), out veiksmoPasirinkimas))
 
                 {

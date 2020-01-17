@@ -10,6 +10,9 @@ namespace KD3
     {
         static void Main(string[] args)
         {
+            //Parašyti funkciją, kuri gauna string tipo parametrą.Funkcija turi 
+            //gražinti eilutę su tiek „#“,kiek simbolių gautame parametre.
+
             Console.WriteLine(suskaiciuotiSimbolius("Romanas"));
             Console.ReadLine();
         }
